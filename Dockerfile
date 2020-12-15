@@ -1,4 +1,4 @@
-FROM 100.125.4.222:20202/op_svc_cse/python-x86_64:3-int-1.0
+FROM swr.cn-east-3.myhuaweicloud.com/op_svc_cse/python-x86_64:3-int-1.0
 WORKDIR /var/cherry-pyapp
 COPY ./ /var/cherry-pyapp/
 RUN pipreqs --debug ./
